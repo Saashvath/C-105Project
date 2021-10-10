@@ -1,0 +1,59 @@
+
+
+<html>
+    <head>
+      <title>C-103Project</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+     <link rel="stylesheet" href="style.css">
+     <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+     
+    </head>
+
+    <body id="body">
+        <div id="container">
+
+            <center>
+
+
+                <label id="family"> My Family Members</label>
+                <br>
+                <br>
+
+                <label id="mom">Mom</label>
+                <hr>
+                <label id="dad">Dad</label>
+                <hr>
+                <label id="sis">Sister</label>
+                <hr>
+                <label id="me">Me</label>
+
+                <div id="camera"></div>
+                <br>
+
+
+                <div id="result"></div>
+
+                <br>
+                <button id="picture" onclick="take_picture()" class="btn btn-primary" >Take A Picture</button>
+                <br>
+                <br>
+                <button id="identify" onclick="identify_image()" class="btn btn-success" >Idenify The Image</button>
+
+                <p style="font-size: 20px;">Object :  <span id="object_result"></span></p>
+      <p style="font-size: 20px;">Accuracy : <span id="object_accuracy"></span> </p>
+            </center>
+
+
+
+        </div>
+        <script src="main.js"></script>
+    </body> 
+
+ 
+ 

@@ -1,0 +1,33 @@
+#body{
+
+    background-color: aqua;
+}
+
+#mom{
+
+    font-size: 25px;
+}
+
+#dad{
+    font-size: 25px;
+}
+
+#sis{
+    font-size: 25px;
+
+}
+
+#me{
+    font-size: 25px;
+}
+
+#family{
+    font-size: 35px;
+}
+
+#camera{
+    border:5px solid brown ;
+    width: 700px;
+    height :400px
+
+}
